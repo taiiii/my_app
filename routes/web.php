@@ -14,3 +14,26 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', function () {
+    return view('top');
+});
+
+Route::get('/users/{id}', 'UserController@show');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('me', 'UserController@edit');
+});
+
+Route::get('/users/1', function () {
+    return view('users.show');
+});
+
+Route::get('/users/1', 'UserController@show');
+
+Route::post('me', 'UserController@update')->middleware('auth')->name('users.update');

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\TimerController;
+use Auth;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $timers = Auth::user()->timers()->orderBy('started_at', 'desc')->limit(5)->get();
+        return view('home', compact('timers'));
     }
 }

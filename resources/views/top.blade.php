@@ -58,7 +58,8 @@
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
-                text-transform: uppercase;   
+                text-transform: uppercase;  
+                border-radius: 5px: 
             }
 
             .m-b-md {
@@ -71,6 +72,7 @@
             }
 
 
+
         </style>
     </head>
     <body>
@@ -78,12 +80,12 @@
             @if (Route::has('login'))
                 <div class="links top-menu">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}" class="button">Home</a>
                     @else
-                        <a href="{{ route('login') }}">ログインはこちら</a>
+                        <a href="{{ route('login') }}" class="button">ログインはこちら</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">新規登録はこちら</a>
+                            <a href="{{ route('register') }}" class="button">新規登録はこちら</a>
                         @endif
                     @endauth
                 </div>

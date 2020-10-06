@@ -18,7 +18,7 @@
                         @csrf
                         <label class="mr-2">Title</label>
                         <input name="title" type="text" value="" class="form-control mr-2" />
-                        <button type="submit" class="btn btn-info">Start</button>
+                        <button type="submit" class="btn btn-danger">Start</button>
                     </form>
                     <div class="mt-4">
                         <table class="table">

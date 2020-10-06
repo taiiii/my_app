@@ -23,13 +23,13 @@ Route::get('/', function () {
     return view('top');
 });
 
-Route::get('/users/{id}', 'UserController@show');
 
 Route::middleware('auth')->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
-    Route::get('me', 'UserController@edit');
+    Route::get('me', 'UserController@edit')->name('user.me');
     Route::post('timer/start', 'TimerController@start')->name('timer.start');
     Route::post('timer/{timer}/stop', 'TimerController@stop')->name('timer.stop');
+    Route::get('/users/{id}', 'UserController@show');
 });
 
 Route::get('/users/1', function () {

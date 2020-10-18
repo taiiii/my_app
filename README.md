@@ -17,8 +17,8 @@ on that occasion, I try to keep my motivation by recording my efforts in this ap
 ## In case you are registered
 - Access to http://127.0.0.1:8000/login
 - Please log in as a demo user
-  -E-Mail Address: tom@example.com
-  -Password: 'password'
+  - E-Mail Address: tom@example.com
+  - Password: 'password'
 
 ## In case you are a new user
 - Access to http://localhost:8000/register

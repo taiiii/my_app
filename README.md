@@ -27,4 +27,7 @@ on that occasion, I try to keep my motivation by recording my efforts in this ap
   - Password: 'password1'
   - Password confirmation: 'password1'
  
- ## DEMO
+# DEMO
+## In case you are registered
+
+## In case you are a new user

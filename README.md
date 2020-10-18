@@ -29,7 +29,7 @@ on that occasion, I try to keep my motivation by recording my efforts in this ap
  
 # DEMO
 ## In case you are registered
-https://user-images.githubusercontent.com/65840756/96372093-4f6e4b80-11a0-11eb-8c5e-c9db8786f0e2.gif
+https://user-images.githubusercontent.com/65840756/96372096-539a6900-11a0-11eb-85dc-eb4acf6f57e6.gif
 
 ## In case you are a new user
-https://user-images.githubusercontent.com/65840756/96372096-539a6900-11a0-11eb-85dc-eb4acf6f57e6.gif
+https://user-images.githubusercontent.com/65840756/96372093-4f6e4b80-11a0-11eb-8c5e-c9db8786f0e2.gif
